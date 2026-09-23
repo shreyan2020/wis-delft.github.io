@@ -1,12 +1,15 @@
 # Web Information Systems group
 ### The official website of the research group __Web Information Systems__, part of Software Technology department from Electrical Engineering Mathematics and Computer Science Faculty of TU Delft.
 
+This checkout contains the TU Delft WIS group website. It is a group-maintained site; the original credits below identify its maintainers.
+
 ## Installation
 1. For first time user, follow [this installation guide](https://jekyllrb.com/docs/installation/).
+2. Install the Ruby dependencies with `bundle install`.
 3. Start your localhost server by using the command `bundle exec jekyll serve`. Make sure that you are at the root directory of your folder before using this command.
 4. The website should be accessible at `localhost:4000/`.
 
-## Webiste structure
+## Website structure
 
 * ["Page not found" layout](404.html)
 * All the following main pages have the same [layout](_layouts/default_style.html).
